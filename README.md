@@ -38,6 +38,11 @@ $ma->product->data->price(100)->qty(90)
 //OR
 $ma->product->data->price(100)->qty(90)
 ->r()->eval('setIndex', true);
+//AND recomendet
+//alweys use ->r() on begin chain.
+//r() - reset path in class
+$ma->r()->product->data->price(100)->qty(90)
+->r()->setIndex(true);
 ```
 
 **Eval:**
