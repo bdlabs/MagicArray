@@ -6,5 +6,8 @@
             "email": "kontakt@blue-diamond.pl"
         }
     ],
+    "autoload": {
+        "psr-4": { "BlueDiamond\\MagicArray\\": "./src" }
+    },
     "require": {}
 }
