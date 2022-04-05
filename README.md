@@ -27,7 +27,7 @@ $ma->set('product.data.price', 100)
     ->set('setIndex', true);
 ```
 
-***Secound way:***
+***Second way:***
 
 ```php
 $ma->product->data->price(100)->qty(90)
